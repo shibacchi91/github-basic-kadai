@@ -1,0 +1,28 @@
+PS C:\Users\bokun> cd C:\Users\bokun\OneDrive\デスクトップ\git_pt4_kadai
+PS C:\Users\bokun\OneDrive\デスクトップ\git_pt4_kadai> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\bokun\OneDrive\デスクトップ\git_pt4_kadai
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2023/12/10     23:44                git_challenge
+
+
+PS C:\Users\bokun\OneDrive\デスクトップ\git_pt4_kadai> cd C:\Users\bokun\OneDrive\デスクトップ\git_pt4_kadai\git_challenge
+PS C:\Users\bokun\OneDrive\デスクトップ\git_pt4_kadai\git_challenge> git init
+Initialized empty Git repository in C:/Users/bokun/OneDrive/デスクトップ/git_pt4_kadai/git_challenge/.git/
+PS C:\Users\bokun\OneDrive\デスクトップ\git_pt4_kadai\git_challenge> git add hello_world.txt
+PS C:\Users\bokun\OneDrive\デスクトップ\git_pt4_kadai\git_challenge> git commit -m "hello_world.txtを追加"   
+[main (root-commit) 5735a8b] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\bokun\OneDrive\デスクトップ\git_pt4_kadai\git_challenge> git add hello_world.txt
+PS C:\Users\bokun\OneDrive\デスクトップ\git_pt4_kadai\git_challenge> git commit -m "日本語訳を追記"
+[main 2f97422] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\bokun\OneDrive\デスクトップ\git_pt4_kadai\git_challenge> git log --oneline
+2f97422 (HEAD -> main) 日本語訳を追記
+5735a8b hello_world.txtを追加
+PS C:\Users\bokun\OneDrive\デスクトップ\git_pt4_kadai\git_challenge>
