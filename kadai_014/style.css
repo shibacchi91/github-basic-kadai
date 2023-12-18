@@ -8,19 +8,16 @@ body {
 h1{
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 1.2em ;
+    text-shadow: 1px 1px 3px black;
+    border-bottom: solid 3px  rgb(115, 115, 114) ;
 }
 
 /*文字フォントサイズ(bodyは20px、h1は2倍)*/
 
-body {
+html {
     font-size: 20px ;
 }
-
-
-h1 {
-    font-size: 2em ;
-}
-
 
 /*フォントカラーMYPROFILEのMをスカイブルー、Ｐをピンク
 名前、血液型、好きな食べ物→スカイブルー
@@ -37,24 +34,6 @@ h1 {
 /*文字位置はセンター*/
 h1 , h2 , p {
     text-align: center ;
-}
-
-/*字間の幅*/
-h1 {
-    letter-spacing: 1.2em ;
-}
-
-
-/*h1に影*/
-
-h1 {
-    text-shadow: 1px 1px 3px black;
-}
-
-/*h1の下に実線*/
-
-h1 {
-    border-bottom: solid 3px  rgb(115, 115, 114) ;
 }
 
 /*「侍太郎」「1990年1月1日」「O型」を太字に*/
