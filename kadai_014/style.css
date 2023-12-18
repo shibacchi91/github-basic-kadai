@@ -13,22 +13,20 @@ h1{
     border-bottom: solid 3px  rgb(115, 115, 114) ;
 }
 
-/*文字フォントサイズ(bodyは20px、h1は2倍)*/
+/*文字フォントサイズ設定(html20px、h1は2倍上に記述)*/
 
 html {
     font-size: 20px ;
 }
 
-/*フォントカラーMYPROFILEのMをスカイブルー、Ｐをピンク
-名前、血液型、好きな食べ物→スカイブルー
-生年月日、趣味、プログラミングを～→スカイブルー*/
+/*フォントカラーの変更*/
 
 .text-skyblue {
-    color: skyblue
+    color: skyblue;
 }
 
 .text-pink {
-    color: rgb(255, 192, 203)
+    color: rgb(255, 192, 203);
 }
 
 /*文字位置はセンター*/
@@ -36,7 +34,7 @@ h1 , h2 , p {
     text-align: center ;
 }
 
-/*「侍太郎」「1990年1月1日」「O型」を太字に*/
+/*一部テキストを太字に*/
 
 #parent p {
     font-weight: bold ;
