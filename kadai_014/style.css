@@ -5,18 +5,20 @@ body {
     font-family: "Arial", "Meiryo", sans-serif ;
 }
 
+html {
+    font-size: 20px ;
+}
+
+
 h1{
     font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 1.2em ;
+    font-size: 2rem;
     text-shadow: 1px 1px 3px black;
     border-bottom: solid 3px  rgb(115, 115, 114) ;
 }
 
-/*文字フォントサイズ設定(html20px、h1は2倍上に記述)*/
 
-html {
-    font-size: 20px ;
-}
 
 /*フォントカラーの変更*/
 
