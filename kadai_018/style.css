@@ -60,15 +60,18 @@
     }
 
 #bottom-child01 {
-    margin-left: 0px;
+    position: relative;
+    left: 0px;
 }
 
 #bottom-child02 {
-    margin-left: 200px;
+    position: relative;
+    left: 200px;
 }
 
 #bottom-child03 {
-    margin-left: 400px;
+    position: relative;
+    left: 400px;
 }
 
 
